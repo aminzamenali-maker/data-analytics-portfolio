@@ -1,48 +1,40 @@
 # Sales Performance Dashboard – Excel
 
-## Ziel
+Interaktives Excel-Dashboard zur Analyse zentraler Sales-Kennzahlen und Performance-Trends.
 
-Ziel des Projekts war es, Verkaufsdaten in ein interaktives Dashboard umzuwandeln und zentrale Sales-Kennzahlen verständlich darzustellen.
+![Sales Dashboard KPIs](images/sales_kpis.jpg)
 
-## Tools
+## Projektziel
 
-- Excel
-- Power Query
-- Pivot-Tabellen
-- KPI-Karten
-- Dashboarding
-- Sales Analytics
+Verkaufsdaten wurden bereinigt, strukturiert und in ein interaktives Dashboard überführt. Ziel war es, Umsatz, Gewinn, Kosten, Marge sowie Produkt- und Regionalperformance schnell verständlich darzustellen.
 
 ## Vorgehen
 
-1. Datenbereinigung und Strukturierung
-2. Aufbau von Pivot-Tabellen
-3. Erstellung von KPI-Karten
-4. Visualisierung von Umsatz, Gewinn, Kosten und Marge
-5. Analyse von Produktkategorien, Regionen und Zeitverlauf
-6. Ableitung von Business Insights
+1. Ausgangsdaten bereinigen und strukturieren
+2. Pivot-Tabellen für die Auswertung aufbauen
+3. KPI-Karten erstellen
+4. Umsatz, Gewinn, Kosten und Marge visualisieren
+5. Produktkategorien, Regionen und Zeitverläufe vergleichen
+6. zentrale Business Insights aus den Kennzahlen ableiten
 
-## Wichtige KPIs
+## Zentrale Kennzahlen
 
-- Umsatz
-- Gewinn
-- Kosten
-- Marge
-- Analysezeitraum
-- Produkt- und Regionalperformance
+- **85,27 Mio. EUR** Umsatz
+- **32,22 Mio. EUR** Gewinn
+- **47 %** Marge
+- Analysezeitraum **2011–2016**
 
-## Ergebnis
+Das Projekt zeigt, wie sich klassische Excel-Werkzeuge mit Power Query, Pivot-Tabellen und einer klaren Dashboard-Struktur für Business Reporting verbinden lassen.
 
-Das Projekt zeigt solide Excel- und Dashboard-Kompetenz. Es ist besonders relevant für Reporting-, Controlling- und BI-nahe Junior-Data-Analyst-Rollen.
+## Tech Stack
 
-## Ordnerstruktur
+`Excel` · `Power Query` · `Pivot-Tabellen` · `KPI Cards` · `Dashboarding` · `Sales Analytics`
 
-- `excel/` – Excel-Dashboard-Dateien
-- `docs/` – Präsentation und Projektdokumentation
-- `images/` – Dashboard-Screenshots
+## Repository-Inhalt
 
-## Recruiter-Zusammenfassung
+- [`docs/`](docs/) – Projektzusammenfassungen und begleitende Dokumentation
+- [`images/`](images/) – Dashboard-Screenshot
 
-Eine natürlich formulierte Projektzusammenfassung liegt unter:
+## Nachgewiesene Kompetenzen
 
-`docs/project_summary_for_recruiters.md`
+Excel · Power Query · Pivot-Tabellen · KPI-Reporting · Dashboarding · Sales Analysis · Business Reporting
