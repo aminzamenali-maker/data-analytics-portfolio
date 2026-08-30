@@ -1,30 +1,25 @@
 # Spotify 2023 Python EDA
 
-## Ziel
+Explorative Datenanalyse von Spotify-Songdaten mit Python, Pandas und Matplotlib.
 
-Ziel des Projekts war es, Spotify-Songdaten zu bereinigen und zu untersuchen, welche Faktoren mit hohen Streaming-Zahlen zusammenhängen.
+![Spotify Top Songs](images/top_songs_streams.jpg)
 
-## Tools
+## Projektziel
 
-- Python
-- Pandas
-- Matplotlib
-- Feature Engineering
-- Korrelationsanalyse
-- EDA
+Der Spotify-Datensatz wurde bereinigt und analysiert, um Muster hinter hohen Streaming-Zahlen zu untersuchen. Neben der Datenaufbereitung wurden neue Merkmale erstellt und Zusammenhänge zwischen Plattformpräsenz, Audio-Eigenschaften und Streams untersucht.
 
 ## Vorgehen
 
-1. Datenimport
-2. Prüfung von Datentypen
-3. Datenbereinigung
-4. Feature Engineering
-5. Visualisierung von Top-Songs und Plattformkennzahlen
-6. Korrelationsanalyse
+1. Datensatz importieren und Datentypen prüfen
+2. Daten bereinigen und analysierbar strukturieren
+3. neue Features für die Auswertung erstellen
+4. Top-Songs, Künstler und Plattformpräsenz visualisieren
+5. Audio-Merkmale und Streaming-Zahlen vergleichen
+6. Korrelationsanalyse durchführen und Ergebnisse einordnen
 
 ## Feature Engineering
 
-Beispiele für neu erstellte Merkmale:
+Unter anderem wurden folgende Merkmale erstellt:
 
 - `song_age`
 - `stream_group`
@@ -33,19 +28,24 @@ Beispiele für neu erstellte Merkmale:
 - `platform_score`
 - `streams_log`
 
-## Ergebnis
+## Zentrale Ergebnisse
 
-Die Analyse zeigte, dass Playlist-Präsenz stärker mit Streams zusammenhängt als einzelne Audio-Merkmale. Das Projekt ist ein guter Nachweis für Python, EDA und datenbasierte Interpretation.
+- **952** Songs im analysierten Datensatz
+- **35** Spalten
+- Korrelation von etwa **0,79** zwischen Playlist-Präsenz und Streams
+- Playlist-Präsenz zeigte einen stärkeren Zusammenhang mit Streams als einzelne Audio-Merkmale
 
-## Ordnerstruktur
+## Tech Stack
 
-- `notebooks/` – Jupyter Notebook
-- `data/` – bereinigte Daten
-- `docs/` – Präsentation und Sprechertext
-- `images/` – Visualisierungen
+`Python` · `Pandas` · `Matplotlib` · `EDA` · `Feature Engineering` · `Correlation Analysis`
 
-## Recruiter-Zusammenfassung
+## Repository-Inhalt
 
-Eine natürlich formulierte Projektzusammenfassung liegt unter:
+- [`notebooks/spotify_2023_analysis.ipynb`](notebooks/spotify_2023_analysis.ipynb) – vollständige Python-Analyse
+- [`data/`](data/) – analysierte Daten
+- [`docs/`](docs/) – Projektzusammenfassungen und begleitende Dokumentation
+- [`images/`](images/) – Visualisierungen
 
-`docs/project_summary_for_recruiters.md`
+## Nachgewiesene Kompetenzen
+
+Python · Pandas · Datenbereinigung · EDA · Feature Engineering · Visualisierung · Korrelationsanalyse · datenbasierte Interpretation
