@@ -8,7 +8,17 @@ Zusätzlich bringe ich praktische Berufserfahrung aus industrieller Qualitätssi
 
 ---
 
-## Ausgewählte Projekte
+## Flagship Project
+
+### [Crypto Entry Intelligence](https://github.com/aminzamenali-maker/crypto-entry-intelligence)
+
+End-to-End-Projekt zur datenbasierten Prüfung transparenter Einstiegssignale mit **Python, SQL/SQLite, Power BI, Datenqualitätsprüfungen, Backtesting und Out-of-Sample-Validierung**.
+
+Die Analyse akzeptiert bewusst auch ein negatives Ergebnis: Keines der 30 untersuchten Signal-Horizont-Paare war in Development, Validation und Final Test gleichzeitig netto positiv. Damit zeigt das Projekt neben technischer Umsetzung auch methodische Disziplin und nachvollziehbare Ergebnisinterpretation.
+
+---
+
+## Weitere ausgewählte Projekte
 
 | Projekt | Was das Projekt zeigt | Tools |
 |---|---|---|
@@ -57,7 +67,7 @@ Excel-Dashboard zur Analyse von Umsatz, Gewinn, Kosten, Marge, Regionen, Produkt
 ## Technische Schwerpunkte
 
 - **Business Intelligence & Reporting:** Power BI, Power Query, DAX-Grundlagen, Datenmodellierung, KPI-Reporting, Dashboarding
-- **SQL & Datenbanken:** SQL, MySQL, PostgreSQL, JOINs, GROUP BY, CASE WHEN, Aggregationen, Views, Datenqualität
+- **SQL & Datenbanken:** SQL, MySQL, PostgreSQL, SQLite, JOINs, GROUP BY, CASE WHEN, Aggregationen, Views, Datenqualität
 - **Python & Analytics:** Python, Pandas, NumPy, Matplotlib, Datenbereinigung, EDA, Feature Engineering
 - **Machine Learning:** Scikit-Learn, Klassifikation, Random Forest, Decision Tree, Modellbewertung, Cross Validation
 - **Excel:** Pivot-Tabellen, Power Query, KPI-Dashboards
@@ -69,7 +79,7 @@ Excel-Dashboard zur Analyse von Umsatz, Gewinn, Kosten, Marge, Regionen, Produkt
 
 Jedes Projekt enthält eine eigene README mit Ziel, Vorgehen, Tools und Ergebnissen. Wo sinnvoll, sind zusätzlich Quellcode bzw. Notebook, Daten, Projektdokumentation und Screenshots enthalten.
 
-Eine ausführlichere Übersicht der Projekte befindet sich in [`PROJECT_SUMMARIES_FOR_RECRUITERS.md`](PROJECT_SUMMARIES_FOR_RECRUITERS.md).
+Eine kompakte Übersicht befindet sich in [`PROJECT_OVERVIEW.md`](PROJECT_OVERVIEW.md).
 
 ---
 
