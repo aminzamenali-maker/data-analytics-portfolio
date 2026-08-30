@@ -1,46 +1,42 @@
 # Credit Risk SQL Analysis
 
-## Ziel
+SQL-Projekt zur Datenqualitätsprüfung, Analyse von Risikofaktoren und Entwicklung einer nachvollziehbaren regelbasierten Risikologik.
 
-Ziel des Projekts war es, Kreditdaten zu analysieren, Risikofaktoren zu erkennen und Kreditfälle nachvollziehbar in Risikogruppen einzuteilen.
+![Credit Risk Results](images/risk_group_results.jpg)
 
-## Tools
+## Projektziel
 
-- SQL
-- CASE WHEN
-- Aggregationen
-- Views
-- Datenqualität
-- Reporting
+Kreditdaten wurden systematisch geprüft und analysiert, um relevante Risikofaktoren zu erkennen und Kreditfälle nachvollziehbar in niedrige, mittlere und hohe Risikogruppen einzuteilen.
 
 ## Vorgehen
 
-1. Prüfung der Datenqualität
-2. Analyse zentraler Risikofaktoren
-3. Entwicklung einer regelbasierten CASE-WHEN-Logik
-4. Einteilung in niedrige, mittlere und hohe Risikogruppen
-5. Erstellung einer finalen SQL-View
-6. Vergleich der Ausfallquoten je Risikogruppe
+1. Datenbasis und Tabellenstruktur prüfen
+2. Datenqualität, fehlende Werte und Plausibilität untersuchen
+3. zentrale Risikofaktoren fachlich analysieren
+4. regelbasierte `CASE WHEN`-Logik entwickeln
+5. Kreditfälle in drei Risikogruppen einteilen
+6. finale Logik in einer wiederverwendbaren SQL-View speichern
+7. Ausfallquoten je Risikogruppe vergleichen und interpretieren
 
-## Ergebnis
+## Zentrale Ergebnisse
 
-Das Projekt zeigt, dass SQL nicht nur für Abfragen genutzt wurde, sondern für eine fachliche Entscheidungslogik. Es ist besonders relevant für Rollen mit Reporting, Datenqualität und Business Analytics.
+- **3** klar getrennte Risikogruppen
+- **58,06 %** Ausfallquote in der hohen Risikogruppe
+- finale View: `risiko_modell_v1`
+- deutlich niedrigere Ausfallquote in der niedrigen Risikogruppe
 
-## Wichtige Ergebnisse
+Das Projekt zeigt SQL als Analyse- und Entscheidungswerkzeug: von Datenqualität und Exploration bis zu einer transparenten fachlichen Risikologik.
 
-- Niedriges Risiko: geringe Ausfallquote
-- Mittleres Risiko: mittlere Ausfallquote
-- Hohes Risiko: deutlich erhöhte Ausfallquote
-- Finale View: `risiko_modell_v1`
+## Tech Stack
 
-## Ordnerstruktur
+`SQL` · `CASE WHEN` · `Aggregationen` · `Views` · `Data Quality` · `Risk Analysis` · `Reporting`
 
-- `sql/` – SQL-Skript
-- `docs/` – Präsentation und Sprechertext
-- `images/` – Ergebnis-Screenshots
+## Repository-Inhalt
 
-## Recruiter-Zusammenfassung
+- [`sql/credit_risk_analysis.sql`](sql/credit_risk_analysis.sql) – vollständiges Analyse-Skript
+- [`docs/`](docs/) – Projektzusammenfassungen und begleitende Dokumentation
+- [`images/`](images/) – Ergebnisvisualisierung
 
-Eine natürlich formulierte Projektzusammenfassung liegt unter:
+## Nachgewiesene Kompetenzen
 
-`docs/project_summary_for_recruiters.md`
+SQL-Analyse · Datenqualität · CASE-WHEN-Logik · Aggregationen · Views · Risikosegmentierung · Business Analytics · Ergebnisinterpretation
