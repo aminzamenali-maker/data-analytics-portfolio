@@ -1,8 +1,21 @@
 # Project Overview
 
-Diese Übersicht fasst die fünf aktuell veröffentlichten Data-Analytics-Projekte kompakt zusammen.
+Diese Übersicht fasst meine aktuell veröffentlichten Data-Analytics-Projekte kompakt zusammen.
 
-## 1. Olist E-Commerce Performance Analysis
+## 1. Crypto Entry Intelligence
+
+**Fokus:** End-to-End Data Analytics, Datenqualität, Backtesting und Out-of-Sample-Validierung  
+**Tools:** Python, SQL, SQLite, Power BI
+
+Historische BTC-, ETH- und SOL-Daten wurden über eine reproduzierbare Pipeline verarbeitet, auf Qualität geprüft, in SQL strukturiert und mit fünf transparenten Einstiegssignalen analysiert. Handelskosten, zeitliche Trennung und ein einmaliger finaler Test wurden ausdrücklich berücksichtigt.
+
+**Ausgewählte Ergebnisse:** 30 Signal-Horizont-Kombinationen · 0/30 über Development, Validation und Final Test stabil netto positiv · finaler Durchschnitt bei 30 bp: -0,2853 % auf 1h und -0,2669 % auf 4h
+
+[Projekt öffnen](https://github.com/aminzamenali-maker/crypto-entry-intelligence)
+
+---
+
+## 2. Olist E-Commerce Performance Analysis
 
 **Fokus:** Business Intelligence, KPI Reporting und Customer Experience  
 **Tools:** Power BI, Power Query, DAX-Grundlagen, Datenmodellierung
@@ -15,7 +28,7 @@ Mehrere E-Commerce-Datentabellen wurden aufbereitet und in einen mehrseitigen Ma
 
 ---
 
-## 2. Wine Quality Classification
+## 3. Wine Quality Classification
 
 **Fokus:** End-to-End Analytics und Klassifikation  
 **Tools:** KNIME, Power BI, Random Forest, Decision Tree, Cross Validation
@@ -28,7 +41,7 @@ Rotwein- und Weißweindaten wurden bereinigt, chemische Merkmale analysiert und 
 
 ---
 
-## 3. Credit Risk SQL Analysis
+## 4. Credit Risk SQL Analysis
 
 **Fokus:** Datenqualität, SQL-Analyse und transparente Risikologik  
 **Tools:** SQL, CASE WHEN, Aggregationen, Views
@@ -41,7 +54,7 @@ Kreditdaten wurden auf Qualität und Risikofaktoren untersucht. Darauf aufbauend
 
 ---
 
-## 4. Spotify 2023 Python EDA
+## 5. Spotify 2023 Python EDA
 
 **Fokus:** Explorative Datenanalyse und Feature Engineering  
 **Tools:** Python, Pandas, Matplotlib
@@ -54,7 +67,7 @@ Spotify-Songdaten wurden bereinigt, um neue Merkmale ergänzt und auf Zusammenh�
 
 ---
 
-## 5. Sales Performance Dashboard
+## 6. Sales Performance Dashboard
 
 **Fokus:** Excel Reporting und Sales Analytics  
 **Tools:** Excel, Power Query, Pivot-Tabellen, Dashboarding
