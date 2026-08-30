@@ -1,49 +1,43 @@
 # Wine Quality Classification – KNIME + Power BI
 
-## Ziel
+End-to-End-Analyse zur Klassifikation von Weinqualität – von der Datenbereinigung über Machine Learning bis zur Ergebnisvisualisierung.
 
-Ziel des Projekts war es, Rotwein- und Weißweindaten zu bereinigen, chemische Merkmale zu analysieren und die Weinqualität in die Klassen **low**, **medium** und **high** zu klassifizieren.
+![Power BI Dashboard](images/dashboard_overview.jpg)
 
-## Tools
+## Projektziel
 
-- KNIME
-- Power BI
-- Excel
-- Decision Tree
-- Random Forest
-- Cross Validation
+Rotwein- und Weißweindaten wurden zusammengeführt, bereinigt und anhand chemischer Merkmale analysiert. Ziel war es, die Weinqualität nachvollziehbar in die Klassen **low**, **medium** und **high** zu klassifizieren und die Ergebnisse anschließend in Power BI verständlich aufzubereiten.
 
 ## Vorgehen
 
-1. Zusammenführung von Rotwein- und Weißweindaten
-2. Datenbereinigung und Prüfung der Datenqualität
-3. Bildung der Zielvariable `quality_category`
-4. Vermeidung von Data Leakage durch Ausschluss der ursprünglichen `quality`-Spalte
-5. Explorative Analyse chemischer Merkmale
-6. Training und Bewertung von Decision Tree und Random Forest
-7. Visualisierung der Ergebnisse in Power BI
+1. Rotwein- und Weißweindaten zusammenführen
+2. Datenqualität prüfen und Datensatz bereinigen
+3. Zielvariable `quality_category` bilden
+4. ursprüngliche `quality`-Spalte aus den Modell-Features entfernen, um Data Leakage zu vermeiden
+5. chemische Merkmale explorativ analysieren
+6. Decision Tree und Random Forest trainieren und bewerten
+7. Ergebnisse in einem Power-BI-Dashboard visualisieren
 
-## Ergebnis
+## Ergebnisse
 
-Das Projekt zeigt einen vollständigen Data-Analytics-Prozess von Datenimport über Bereinigung und Modellbewertung bis zur Ergebnisvisualisierung. Besonders stark ist die Verbindung aus KNIME-Workflow, Machine-Learning-Logik und Power-BI-Reporting.
+- **5.320** bereinigte Wein-Datensätze
+- **14** Analyse-Spalten
+- **3** Qualitätsklassen
+- **Random Forest** als bestes der verglichenen Modelle
 
-## Wichtige Kennzahlen
+Das Projekt verbindet Datenaufbereitung, explorative Analyse, Klassifikation, Modellbewertung und Reporting in einem durchgängigen Workflow.
 
-- 5.320 bereinigte Weine
-- 14 Analyse-Spalten
-- 3 Qualitätsklassen
-- Random Forest als bestes Modell
+## Tech Stack
 
-## Ordnerstruktur
+`KNIME` · `Power BI` · `Excel` · `Random Forest` · `Decision Tree` · `Cross Validation` · `Data Cleaning` · `EDA`
 
-- `data/` – Rohdaten und bereinigte Daten
-- `knime/` – KNIME Workflow Export
-- `powerbi/` – Power-BI-Dashboard
-- `docs/` – Projektdokumentation
-- `images/` – Screenshots
+## Repository-Inhalt
 
-## Recruiter-Zusammenfassung
+- [`data/`](data/) – Rohdaten und bereinigte Daten
+- [`knime/`](knime/) – exportierter KNIME-Workflow
+- [`docs/`](docs/) – Projektdokumentation
+- [`images/`](images/) – Dashboard-Screenshot
 
-Eine natürlich formulierte Projektzusammenfassung liegt unter:
+## Nachgewiesene Kompetenzen
 
-`docs/project_summary_for_recruiters.md`
+Datenbereinigung · Datenqualität · Klassifikation · Leakage-Vermeidung · Modellbewertung · KNIME-Workflows · Power-BI-Reporting · Ergebnisinterpretation
