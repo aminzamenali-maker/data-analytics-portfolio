@@ -1,48 +1,40 @@
 # Olist E-Commerce Performance Analysis – Power BI
 
-## Ziel
+Interaktiver Management-Report zur Analyse von Umsatz, Bestellungen, Lieferperformance und Customer Experience.
 
-Ziel des Projekts war es, E-Commerce-Daten in einen interaktiven Management-Report zu überführen und zentrale Performance-Kennzahlen sichtbar zu machen.
+![Olist Executive Overview](images/executive_overview.jpg)
 
-## Tools
+## Projektziel
 
-- Power BI
-- Power Query
-- DAX-Grundlagen
-- Datenmodellierung
-- KPI Reporting
+Mehrere E-Commerce-Datentabellen wurden in Power BI aufbereitet und zu einem übersichtlichen Management-Report verbunden. Im Mittelpunkt standen zentrale Geschäftskennzahlen und die Frage, wie sich Sales, Lieferung, Kundenbewertungen und Produktperformance verständlich zusammenfassen lassen.
 
 ## Vorgehen
 
-1. Import mehrerer Olist-Datentabellen
-2. Datenbereinigung und Transformation in Power Query
-3. Aufbau eines Datenmodells
-4. Erstellung zentraler KPIs
-5. Aufbau eines mehrseitigen Power-BI-Reports
-6. Ableitung datenbasierter Handlungsempfehlungen
+1. mehrere Olist-Datentabellen importieren
+2. Daten in Power Query bereinigen und transformieren
+3. Datenmodell für die Analyse aufbauen
+4. zentrale KPIs mit DAX-Grundlagen erstellen
+5. mehrseitigen Power-BI-Report strukturieren
+6. Auffälligkeiten und Business-Zusammenhänge interpretieren
 
-## KPIs
+## Zentrale Kennzahlen
 
-- Total Revenue
-- Total Orders
-- On-Time Delivery Rate
-- Average Review Score
-- Customer Experience
-- Seller Performance
+- **13,53 Mio.** Total Revenue
+- **98 Tsd.** Total Orders
+- **92 %** On-Time Delivery Rate
+- **4,03** Average Review Score
 
-## Ergebnis
+Der Report verbindet Kennzahlen zu Umsatz, Bestellungen, Lieferung, Seller-Performance, Produktkategorien und Customer Experience in einer einheitlichen BI-Struktur.
 
-Der Report verbindet Business-Kennzahlen mit einer klaren visuellen Struktur. Recruiter sehen hier besonders gut Power BI, DAX-Grundlagen, KPI-Logik, Datenmodellierung und Business Storytelling.
+## Tech Stack
 
-## Ordnerstruktur
+`Power BI` · `Power Query` · `DAX-Grundlagen` · `Datenmodellierung` · `KPI Reporting` · `Business Intelligence`
 
-- `data/` – Olist-Datensatz
-- `powerbi/` – Power-BI-Datei
-- `docs/` – Projektbeschreibung und Präsentation
-- `images/` – Dashboard-Screenshots
+## Repository-Inhalt
 
-## Recruiter-Zusammenfassung
+- [`docs/`](docs/) – Projektzusammenfassungen und begleitende Dokumentation
+- [`images/`](images/) – Dashboard-Screenshot
 
-Eine natürlich formulierte Projektzusammenfassung liegt unter:
+## Nachgewiesene Kompetenzen
 
-`docs/project_summary_for_recruiters.md`
+Power BI · Power Query · KPI-Logik · DAX-Grundlagen · Datenmodellierung · Dashboarding · E-Commerce Analytics · Business Storytelling
